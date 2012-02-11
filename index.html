@@ -14,7 +14,6 @@
 		<link rel="stylesheet" href="Assets/Styles/structure.css" />
 		<link rel="stylesheet" media="screen and (-webkit-min-device-pixel-ratio:0)" href="Assets/Styles/webkit.css" />
 	</head>
-	<?php flush(); ?>
 	<body>
 		<header class="dimension centralalign"></header>
 		<div class="split">
@@ -38,8 +37,18 @@
 				</ul>
 			</div>
 		</div>
-		<?php flush(); ?>
 		<script data-main="Assets/Scripts/main" src="Assets/Scripts/Require.min.js"></script>
-		<?php include 'Assets/Includes/GoogleAnalytics.php'; ?>
+		<script>
+			var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-29115784-1']);
+				_gaq.push(['_trackPageview']);
+				_gaq.push(['_trackPageLoadTime']);
+				
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+		</script>
 	</body>
 </html>

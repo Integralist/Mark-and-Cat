@@ -1,0 +1,73 @@
+.dimension {
+	width: 960px;
+}
+
+.centralalign {
+	margin: auto;
+}
+
+header {
+	background: url(../Images/frame.jpg) 0 0 no-repeat;
+	height: 739px;
+}
+
+hr {
+	margin: 2em 0;
+}
+
+.split {
+	background-color: #FCF6CF;
+	margin-top: 3em;
+	padding-bottom: 4em;
+}
+
+#map {
+	height: 400px;
+	width: 960px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #960;
+	font-family: ParisianRegular;
+	font-size: 270%;
+	margin-bottom: 0.5em;
+	text-shadow: #960 1px 1px 2px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	text-align: center;
+}
+
+h1 {
+	padding-top: 1em;
+}
+
+hr,
+.shadow {
+	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+	-ms-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+	-o-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.contact {
+	margin-top: 2em;
+	width: 300px;
+}
+
+a {
+	color: #960;
+	
+	-webkit-transition: color 0.2s linear;
+	-moz-transition: color 0.2s linear;
+	-ms-transition: color 0.2s linear;
+	-o-transition: color 0.2s linear;
+	transition: color 0.2s linear;
+}
+
+a:focus,
+a:hover {
+	color: #333;
+	text-decoration: none;
+}

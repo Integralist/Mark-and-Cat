@@ -1,0 +1,7 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+Company Name: Mark McDonnell
+Site: http://www.integralist.co.uk/
+Twitter: http://twitter.com/#!/integralist

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ParisianRegular';
+    src: url('Fonts/parisian-webfont.eot');
+    src: url('Fonts/parisian-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/parisian-webfont.woff') format('woff'),
+         url('Fonts/parisian-webfont.ttf') format('truetype'),
+         url('Fonts/parisian-webfont.svg#ParisianRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -4,7 +4,7 @@ define(['async!http://maps.googleapis.com/maps/api/js?libraries=places&sensor=tr
 		latlng = new google.maps.LatLng(51.5835853340362, 0.67008050000004),
 		options = {
 			zoom: 10, 
-			center: new google.maps.LatLng(51.60539783939976, 0.67008050000004), 
+			center: new google.maps.LatLng(51.67539783939976, 0.67008050000004), 
 			mapTypeControl: true,
 			mapTypeControlOptions: { style: google.maps.MapTypeControlStyle.DROPDOWN_MENU },
 			mapTypeId: google.maps.MapTypeId.ROADMAP,

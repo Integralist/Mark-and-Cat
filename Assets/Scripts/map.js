@@ -39,7 +39,7 @@ define(['async!http://maps.googleapis.com/maps/api/js?libraries=places&sensor=tr
 				map: map,
 				position: place.geometry.location
 			}),
-			content = '<strong>' + place.name + '</strong><br>' + place.vicinity + '<br><a href="http://www.google.co.uk/search?q=' + place.name + '%2C ' + place.vicinity + '%2C Essex%2C UK">Click here to search for this Hotel\'s contact details</a><hr class="map"><small>(Sorry for the lack of contact number/email,<br>Google services doesn\'t provide contact information directly)</small>';
+			content = '<strong>' + place.name + '</strong><br>' + place.vicinity + '<br><a href="http://www.google.co.uk/search?q=' + place.name + '%2C ' + place.vicinity + '%2C Essex%2C UK">Click here to search for this Hotel\'s contact details</a><hr class="map"><small>(Sorry for the lack of contact number/email,<br>Google services doesn\'t provide contact information directly so we have to search for it manually)</small>';
 		console.log(place);
 		google.maps.event.addListener(marker, 'click', function() {
 			infowindow.close();

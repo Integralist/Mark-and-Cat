@@ -28,6 +28,9 @@ define(['async!http://maps.googleapis.com/maps/api/js?libraries=places&sensor=tr
 	
 	google.maps.event.addListener(marker, 'click', function() { 
 		infowindow.open(map, marker);
+		if (hotelwindow) {
+			hotelwindow.close();
+		}		
 	});
 	
 	function createMarker(place) {

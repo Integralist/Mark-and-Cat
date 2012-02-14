@@ -13,7 +13,7 @@ define(['async!http://maps.googleapis.com/maps/api/js?libraries=places&sensor=tr
 		map = new google.maps.Map(document.getElementById('map'), options),
 		logo = new google.maps.MarkerImage('/Assets/Images/marker.png', new google.maps.Size(107, 83), new google.maps.Point(0,0)),
 		infowindow = new google.maps.InfoWindow({ 
-			content: '<strong>The Lawn</strong><br>01702 203669<br>Hall Road, Rochford, Essex, SS4 1PL<br><br>Click on the surrounding markers for hotels within the area…'
+			content: '<strong>The Lawn</strong><br>01702 203669<br>Hall Road, Rochford, Essex, SS4 1PL<br><br><small>Click on the surrounding markers for hotels within the area…</small>'
 		}),
 		hotelwindow;
 		

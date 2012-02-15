@@ -79,3 +79,9 @@ a:hover {
 	color: #333;
 	text-decoration: none;
 }
+
+/* Campaign Monitor */
+span.label,span.spacer,span.multiple span {width:120px;float:left;} 
+span.multiple {float:left;} 
+span.button {padding-left:120px;} 
+div.clear {clear:both;padding-top:5px;} 

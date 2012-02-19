@@ -391,9 +391,9 @@ input[type=submit].btn::-moz-focus-inner {
 
 .alert-message.block-message {
 	background-image: none;
-	background-color: #fdf5d9;
 	border-color: #fceec1;
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    margin-bottom: 2em;
 	padding: 14px;
 	
 	-webkit-box-shadow: none;

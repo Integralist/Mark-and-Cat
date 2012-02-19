@@ -80,8 +80,30 @@ a:hover {
 	text-decoration: none;
 }
 
-/* Campaign Monitor */
-span.label,span.spacer,span.multiple span {width:120px;float:left;} 
-span.multiple {float:left;} 
-span.button {padding-left:120px;} 
-div.clear {clear:both;padding-top:5px;} 
+.label.warning {
+    background-color: #960;
+}
+
+.label + span {
+    display: block;
+    margin: 0.5em 0 1em;
+}
+
+.alert-message.block-message.danger p {
+    margin: 1em auto;
+}
+
+.alert-message.block-message.danger ul {
+    margin: 2em auto 1em;
+    width: 10em;
+}
+
+#subForm {
+    margin: auto;
+    width: 15em;
+}
+
+.alert-message.block-message.danger h2,
+.alert-message.block-message.danger a {
+    color: #fff;
+}

@@ -15,17 +15,14 @@ require(['errorhandler'], function(handler) {
 
 require(['jquery'], function($){
     
-    $(function () {
+    $(function(){
         $('#subForm').submit(function (e) {
             e.preventDefault();
-            $.getJSON(
-            this.action + "?callback=?",
-            $(this).serialize(),
-            function (data) {
+            $.getJSON(this.action + "?callback=?", $(this).serialize(), function (data) {
                 if (data.Status === 400) {
-                    alert("Error: " + data.Message);
+                    alert("Error: " + data.Message.replace('subscribe to this list', 'submit your RSVP'));
                 } else { // 200
-                    alert("Success: " + data.Message);
+                    alert("Thanks, we've just sent you an email where you'll need to confirm your RSVP by clicking the link in the email.");
                 }
             });
         });

@@ -107,3 +107,8 @@ a:hover {
 .alert-message.block-message.danger a {
     color: #fff;
 }
+
+.RSVP {
+    margin: 1em auto;
+    width: 12em;
+}

@@ -1,4 +1,5 @@
 body {
+    background-color: #FCF6CF;
 	margin-top: 2em;
 }
 
@@ -21,12 +22,6 @@ hr {
 
 .map {
 	margin: 1em 0;
-}
-
-.split {
-	background-color: #FCF6CF;
-	margin-top: 3em;
-	padding-bottom: 4em;
 }
 
 #map {
